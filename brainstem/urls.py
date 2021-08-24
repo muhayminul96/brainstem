@@ -20,4 +20,11 @@ from mainapp import views as main_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_views.home),
+    path('signup', main_views.reg),
+    path('login', main_views.signin),
+    path('logout', main_views.logoutprosses),
+    path('info', main_views.info),
+    
+    
+    
 ]
